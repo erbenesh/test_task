@@ -1,0 +1,73 @@
+.todos_background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 520px;
+}
+
+.todos_window {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px rgb( 0, 0, 0, 0.2);
+    border: 1px solid rgb(214, 214, 214);
+    background: white;
+    
+}
+
+.task_create_input {
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding-left: 60px;
+    padding-right: 35px;
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.task_create_input::placeholder { 
+    color: rgb(214, 214, 214);
+    font-style: italic;
+}
+
+.bottom_toolbar {
+    display: grid;
+    grid-template-columns: 80px 150px 125px;
+    justify-content: space-between;
+    place-items: center;
+    padding: 5px;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+
+.active_tasks_len_cheker {
+    font-size: 14px;
+    margin: 0;
+    user-select: none;
+    color: rgb(110, 110, 110);
+}
+
+.bottom_toolbar_choose_list_buttons {
+    display: grid;
+    grid-template-columns: 40px 60px 90px;
+    flex-direction: row;
+}
+
+.bottom_toolbar_buttons {
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    color: rgb(110, 110, 110);
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    box-sizing: border-box;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bottom_toolbar_buttons:hover {
+    border: 1px solid rgb(214, 214, 214);
+}

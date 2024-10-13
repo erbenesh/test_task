@@ -1,0 +1,17 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    height: auto;
+    column-gap: 10px;
+    padding: 5px 35px 5px 10px;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+
+.task_title{
+    font-size: 20px;
+    margin: 0;
+    color: rgb(100, 100, 100);
+    overflow: hidden;
+    transition: .3s;
+}
